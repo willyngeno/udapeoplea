@@ -199,7 +199,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "0c:1c:3f:7d:d4:5f:7d:cd:6a:d7:02:b8:12:72:36:ca"
+            - "0d:53:19:1d:08:b2:83:07:d3:d1:fd:50:69:bf:92:e4"
       - attach_workspace:
           at: /tmp/.circleci/ansible
       - run:
@@ -312,7 +312,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "0c:1c:3f:7d:d4:5f:7d:cd:6a:d7:02:b8:12:72:36:ca"
+            - "0d:53:19:1d:08:b2:83:07:d3:d1:fd:50:69:bf:92:e4"
       - restore_cache:
           keys: [backend-build]
       - attach_workspace:
